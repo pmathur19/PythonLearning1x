@@ -13,6 +13,7 @@ elif Score >=70 and Score <=79:
     print(f"Your Grade is C")
 elif Score >=60 and Score <=69:
     print(f"Your Grade is D")
-
+elif Score>=0 and Score<=59:
+    print(f"Your grade is F")
 else:
-    print(f"Your Grade is F")
+    print(f"Invalid input")
