@@ -11,6 +11,7 @@ def test_sample2():
 
 def test_get_request():
     id = "538"
+
     url = "https://restful-booker.herokuapp.com/booking/"
     full_url = url + id
     print(full_url)
